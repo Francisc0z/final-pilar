@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo de Arte Latinoamericano de Buenos Aires</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Prociono&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+
+    <header class="bg-light py-3 fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#HOME">
+                    <img src="img/malbanegro.svg" alt="Logo" class="logo-img">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#HOME">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#EXPOSICIONES">EXPOSICIONES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="actividades.html">ACTIVIDADES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#COLECCIONES">COLECCIONES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#CONTACTO">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Carousel -->
+    <section id="HOME" class="mt-4 pt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slide1.jpg" class="d-block w-100" alt="slide1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1 class=" display-5 prociono-regular">Marina Les Saintes Maries de la Mer</h1>
+                        <p class="poppins-light">Cuadro del pintor Vicente Van Gogh. Año 1888.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide2.jpg" class="d-block w-100" alt="slide2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class=" display-5 prociono-regular">Impression, soleil levant</h5>
+                        <p class="poppins-light">Cuadro del pintor francés Claude Monet. Año 1872.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/slide3.jpg" class="d-block w-100" alt="slide3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-5 prociono-regular">Cliff Walk at Pourville</h5>
+                        <p class="poppins-light">Cuadro del pintor francés Claude Monet. Año 1882.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="col-12">
+                <div class="row my-3 py-4">
+                    <div class="col-lg-6 justify-content-lg-center align-items-lg-center">
+                        <h2 class="prociono-regular display-6 mt-5">MALBA</h2>
+                        <p class="poppins-light lead">
+                            El Museo de Arte Latinoamericano de Buenos Aires es un destacado centro cultural que alberga
+                            una impresionante colección de arte latinoamericano moderno y contemporáneo. Ubicado en
+                            Palermo, Buenos Aires, exhibe obras de artistas como Frida Kahlo y Diego Rivera, así como
+                            exposiciones temporales que exploran diversas expresiones artísticas de la región.
+                        </p>
+                        <a href="quienessomos.html" class="btn poppins-light">Quienes Somos</a>
+                    </div>
+                    <div class="col-lg-6 mt-lg-5 mb-lg-5 justify-content-lg-center align-items-lg-center">
+                        <img src="img/museo.jpg" class="img-fluid" alt="museo">
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Exposiciones
+ -->
+    <section id="EXPOSICIONES" class="container my-5 mt-5 pt-5">
+        <h2 class="mb-4 prociono-regular display-6">Exposiciones</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4 ">
+            <div class="col">
+                <div class="card h-75">
+                    <img src="img/Exi1.jpg" alt="Foto 1">
+                    <div class="card-details">
+                        <h3 class="prociono-regular ms-2">La Femme à l´ombrelle</h3>
+                        <p class="poppins-light mb-3 ms-2">Pintura al óleo - Claude Monet.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="img/Exi2.jpg" alt="Foto 2">
+                    <div class="card-details">
+                        <h3 class="prociono-regular ms-2">Balançant danseurs</h3>
+                        <p class="poppins-light mb-3 ms-2">Pintura al pastel - Edgar Degas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="img/Exi3.jpg" alt="Foto 3">
+                    <div class="card-details">
+                        <h3 class="prociono-regular ms-2">Le Moulin de la Galette</h3>
+                        <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Pierre Aguste Renoir.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-75">
+                    <img src="img/Exi4.jpg" alt="Foto 4">
+                    <div class="card-details">
+                        <h3 class="prociono-regular ms-2">Musée Orsay</h3>
+                        <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Edgar Degas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Colecciones -->
+
+    <section id="COLECCIONES" class="container my-5">
+        <h2 class="mb-4 prociono-regular display-6">Colecciones</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/vallombrosa.jpg" class="card-img-top" alt="Vallombrosa, 1916">
+                    <div class="card-body">
+                        <h5 class="prociono-regular">Vallombrosa, 1916</h5>
+                        <p class="poppins-light">
+                            Año: 1916<br>
+                            Técnica: Óleo sobre tela<br>
+                            50,5 x 40 cm<br>
+                            Nro. de inventario: 1999.03<br>
+
+                        </p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/festadesaojoao2.jpg" class="card-img-top" alt="Festa de São João, 1936">
+                    <div class="card-body">
+                        <h5 class="prociono-regular">Festa de São João, 1936</h5>
+                        <p class="poppins-light">
+                            Año: 1936<br>
+                            Técnica: Óleo sobre tela<br>
+                            175,2 x 194,5 cm<br>
+                            Nro. de inventario: 2003.38<br>
+
+                        </p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/lamananaverde.jpg" class="card-img-top" alt="La mañana verde, 1943">
+                    <div class="card-body">
+                        <h5 class="prociono-regular">La mañana verde, 1943</h5>
+                        <p class="poppins-light">
+                            Año: 1943<br>
+                            Técnica: Óleo sobre papel<br>
+                            187 x 124 cm<br>
+                            Nro. de inventario: 2003.35<br>
+
+                        </p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card h-100">
+                    <img src="img/quioscodecanaletas.jpg" class="card-img-top" alt="Quiosco de Canaletas, 1918">
+                    <div class="card-body">
+                        <h5 class="prociono-regular">Canaletas, 1918</h5>
+                        <p class="poppins-light">
+                            Año: 1918<br>
+                            Técnica: Grafito sobre papel<br>
+                            47,5 x 62 cm<br>
+                            Nro. de inventario: 2001.13<br>
+
+                        </p>
+                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contacto -->
+    <section id="CONTACTO" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4 prociono-regular display-6">Contacto</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="poppins-light">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre completo</label>
+                            <input type="text" class="form-control" id="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-image">
+                        <img src="img/malbainterior.jpg" alt="Contacto" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 mb-3">
+                    <img src="img/malbanegro.svg" alt="logo" class="logo-img" width="24">
+                </div>
+                <div class="col-lg-5 text-lg-center mx-lg-auto">
+                    <p>COPYRIGHT 2024 - MUSEO DE ARTE LATINOAMERICANO DE BUENOS AIRES</p>
+                    <p>Todos los derechos reservados. ®</p>
+                </div>
+
+                <div class="col-lg-2 ms-lg-auto">
+                    <a class="x" href="https://x.com/museomalba" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                    <a class="instagram" href="https://www.instagram.com/museomalba" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                    <a class="youtube" href="https://www.youtube.com/museomalba" target="_blank"><i
+                            class="bi bi-youtube"></i></a>
+                            <a class="facebook" href="https://www.facebook.com/museomalba" target="_blank"><i
+                                class="bi bi-facebook"></i></a>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- footer -->
