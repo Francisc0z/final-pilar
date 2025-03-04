@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+.expositions-container{
+    width: 80%;
+}
+.image-card-collections img{
+    object-fit: cover;
+    object-position: top center;
+    cursor: pointer;
+}
+
+.image-card-collections img:hover{
+    transition: 0.3s;
+    filter: brightness(0.8) blur(.5px);
+}
+
+.card-collections-text{
+    margin-top: 20px;
+}
+
+.modal-body{
+    padding: 10px;
+}
+
+.modal-body img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 770px) {
+    .contact-image img {
+        max-width: 100%;
+        width: 500px;
+        height: 480px;
+        margin-right: 20px;
+    }
+    .card-expositions{
+        min-height: 550px;
+    }
+    .card-collections-text{
+        margin: 0px;
+        padding: 0px 30px 0 30px;
+    }
+}

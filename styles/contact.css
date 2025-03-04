@@ -1,0 +1,37 @@
+.contact-image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.contact-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-image {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-contacto{
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
+.confirmation-ok{
+    flex-direction: column;
+}
+.contact-info p{
+    margin: 0;
+    font-size: 18px;
+}

@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/img/malbanegro.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Museo de Arte Latinoamericano de Buenos Aires</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,14 +15,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="estilos.css">
 </head>
-
 <body>
 
 
     <header class="bg-light py-3 fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#HOME">
+                <a class="navbar-brand" href="index.html">
                     <img src="img/malbanegro.svg" alt="Logo" class="logo-img">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -30,11 +30,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#HOME">HOME</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#EXPOSICIONES">EXPOSICIONES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="exposiciones.html">EXPOSICIONES</a></li>
                         <li class="nav-item"><a class="nav-link" href="actividades.html">ACTIVIDADES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#COLECCIONES">COLECCIONES</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#CONTACTO">CONTACTO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="colecciones.html">COLECCIONES</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/shop.html">SHOP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
                     </ul>
                 </div>
             </nav>
@@ -98,7 +99,7 @@
                             Palermo, Buenos Aires, exhibe obras de artistas como Frida Kahlo y Diego Rivera, así como
                             exposiciones temporales que exploran diversas expresiones artísticas de la región.
                         </p>
-                        <a href="quienessomos.html" class="btn poppins-light">Quienes Somos</a>
+                        <a href="quienessomos.html" class="btn poppins-light mb-4">Quienes Somos</a>
                     </div>
                     <div class="col-lg-6 mt-lg-5 mb-lg-5 justify-content-lg-center align-items-lg-center">
                         <img src="img/museo.jpg" class="img-fluid" alt="museo">
@@ -112,43 +113,54 @@
     <section id="EXPOSICIONES" class="container my-5 mt-5 pt-5">
         <h2 class="mb-4 prociono-regular display-6">Exposiciones</h2>
         <div class="row row-cols-1 row-cols-md-4 g-4 ">
-            <div class="col">
-                <div class="card h-75">
-                    <img src="img/Exi1.jpg" alt="Foto 1">
-                    <div class="card-details">
-                        <h3 class="prociono-regular ms-2">La Femme à l´ombrelle</h3>
-                        <p class="poppins-light mb-3 ms-2">Pintura al óleo - Claude Monet.</p>
+
+            <div class="col-12 col-md-6 col-lg-3 card-expositions">
+                <a href="exposiciones.html#lafemme">
+                    <div class="card h-75">
+                        <img src="img/Exi1.jpg" alt="Foto 1">
+                        <div class="card-details">
+                            <h3 class="prociono-regular ms-2">La Femme à l´ombrelle</h3>
+                            <p class="poppins-light mb-3 ms-2">Pintura al óleo - Claude Monet.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col">
-                <div class="card h-75">
-                    <img src="img/Exi2.jpg" alt="Foto 2">
-                    <div class="card-details">
-                        <h3 class="prociono-regular ms-2">Balançant danseurs</h3>
-                        <p class="poppins-light mb-3 ms-2">Pintura al pastel - Edgar Degas.</p>
+
+            <div class="col-12 col-md-6 col-lg-3 card-expositions">
+                <a href="exposiciones.html#balancant">
+                    <div class="card h-75">
+                        <img src="img/Exi2.jpg" alt="Foto 2">
+                        <div class="card-details">
+                            <h3 class="prociono-regular ms-2">Balançant danseurs</h3>
+                            <p class="poppins-light mb-3 ms-2">Pintura al pastel - Edgar Degas.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col">
-                <div class="card h-75">
-                    <img src="img/Exi3.jpg" alt="Foto 3">
-                    <div class="card-details">
-                        <h3 class="prociono-regular ms-2">Le Moulin de la Galette</h3>
-                        <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Pierre Aguste Renoir.</p>
+
+            <div class="col-12 col-md-6 col-lg-3 card-expositions">
+                <a href="exposiciones.html#lemoulin">
+                    <div class="card h-75">
+                        <img src="img/Exi3.jpg" alt="Foto 3">
+                        <div class="card-details">
+                            <h3 class="prociono-regular ms-2">Le Moulin de la Galette</h3>
+                            <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Pierre Aguste Renoir.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col">
-                <div class="card h-75">
-                    <img src="img/Exi4.jpg" alt="Foto 4">
-                    <div class="card-details">
-                        <h3 class="prociono-regular ms-2">Musée Orsay</h3>
-                        <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Edgar Degas.</p>
+
+            <div class="col-12 col-md-6 col-lg-3 card-expositions">
+                <a href="exposiciones.html#musee">
+                    <div class="card h-75">
+                        <img src="img/Exi4.jpg" alt="Foto 4">
+                        <div class="card-details">
+                            <h3 class="prociono-regular ms-2">Musée Orsay</h3>
+                            <p class="poppins-light mb-3 ms-2">Pintura al óleo sobre lienzo - Edgar Degas.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-        </div>
         </div>
     </section>
 
@@ -158,113 +170,131 @@
     <!-- Colecciones -->
 
     <section id="COLECCIONES" class="container my-5">
-        <h2 class="mb-4 prociono-regular display-6">Colecciones</h2>
+        <h2 class="prociono-regular display-6">Colecciones</h2>
         <div class="row">
-            <div class="col-md-3">
-                <div class="card h-100">
-                    <img src="img/vallombrosa.jpg" class="card-img-top" alt="Vallombrosa, 1916">
-                    <div class="card-body">
-                        <h5 class="prociono-regular">Vallombrosa, 1916</h5>
-                        <p class="poppins-light">
-                            Año: 1916<br>
-                            Técnica: Óleo sobre tela<br>
-                            50,5 x 40 cm<br>
-                            Nro. de inventario: 1999.03<br>
-
-                        </p>
-                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-3 home-card-collections">
+                <a href="colecciones.html#vallombrosa">
+                    <div class="card h-100">
+                        <img src="img/vallombrosa.jpg" class="card-img-top" alt="Vallombrosa, 1916">
+                        <div class="card-body">
+                            <h5 class="prociono-regular">Vallombrosa, 1916</h5>
+                            <p class="poppins-light">
+                                Año: 1916<br>
+                                Técnica: Óleo sobre tela<br>
+                                50,5 x 40 cm<br>
+                                Nro. de inventario: 1999.03<br>
+    
+                            </p>
+                            <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col-md-3">
-                <div class="card h-100">
-                    <img src="img/festadesaojoao2.jpg" class="card-img-top" alt="Festa de São João, 1936">
-                    <div class="card-body">
-                        <h5 class="prociono-regular">Festa de São João, 1936</h5>
-                        <p class="poppins-light">
-                            Año: 1936<br>
-                            Técnica: Óleo sobre tela<br>
-                            175,2 x 194,5 cm<br>
-                            Nro. de inventario: 2003.38<br>
-
-                        </p>
-                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-3 home-card-collections">
+                <a href="colecciones.html#saojoao">
+                    <div class="card h-100">
+                        <img src="img/festadesaojoao2.jpg" class="card-img-top" alt="Festa de São João, 1936">
+                        <div class="card-body">
+                            <h5 class="prociono-regular">Festa de São João, 1936</h5>
+                            <p class="poppins-light">
+                                Año: 1936<br>
+                                Técnica: Óleo sobre tela<br>
+                                175,2 x 194,5 cm<br>
+                                Nro. de inventario: 2003.38<br>
+    
+                            </p>
+                            <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col-md-3">
-                <div class="card h-100">
-                    <img src="img/lamananaverde.jpg" class="card-img-top" alt="La mañana verde, 1943">
-                    <div class="card-body">
-                        <h5 class="prociono-regular">La mañana verde, 1943</h5>
-                        <p class="poppins-light">
-                            Año: 1943<br>
-                            Técnica: Óleo sobre papel<br>
-                            187 x 124 cm<br>
-                            Nro. de inventario: 2003.35<br>
-
-                        </p>
-                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-3 home-card-collections">
+                <a href="colecciones.html#lamaniana">
+                    <div class="card h-100">
+                        <img src="img/lamananaverde.jpg" class="card-img-top" alt="La mañana verde, 1943">
+                        <div class="card-body">
+                            <h5 class="prociono-regular">La mañana verde, 1943</h5>
+                            <p class="poppins-light">
+                                Año: 1943<br>
+                                Técnica: Óleo sobre papel<br>
+                                187 x 124 cm<br>
+                                Nro. de inventario: 2003.35<br>
+    
+                            </p>
+                            <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="col-md-3">
-                <div class="card h-100">
-                    <img src="img/quioscodecanaletas.jpg" class="card-img-top" alt="Quiosco de Canaletas, 1918">
-                    <div class="card-body">
-                        <h5 class="prociono-regular">Canaletas, 1918</h5>
-                        <p class="poppins-light">
-                            Año: 1918<br>
-                            Técnica: Grafito sobre papel<br>
-                            47,5 x 62 cm<br>
-                            Nro. de inventario: 2001.13<br>
-
-                        </p>
-                        <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+            <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-3 home-card-collections">
+                <a href="colecciones.html#canaletas">
+                    <div class="card h-100">
+                        <img src="img/quioscodecanaletas.png" class="card-img-top" alt="Quiosco de Canaletas, 1918">
+                        <div class="card-body">
+                            <h5 class="prociono-regular">Canaletas, 1918</h5>
+                            <p class="poppins-light">
+                                Año: 1918<br>
+                                Técnica: Grafito sobre papel<br>
+                                47,5 x 62 cm<br>
+                                Nro. de inventario: 2001.13<br>
+    
+                            </p>
+                            <p class="card-text"><small class="text-muted">Actualizado hace 10 minutos</small></p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
 
-    <!-- Contacto -->
-    <section id="CONTACTO" class="bg-light py-5">
-        <div class="container">
-            <h2 class="mb-4 prociono-regular display-6">Contacto</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <form class="poppins-light">
-                        <div class="mb-3">
-                            <label for="nombre" class="form-label">Nombre completo</label>
-                            <input type="text" class="form-control" id="nombre" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">E-mail</label>
-                            <input type="email" class="form-control" id="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="telefono" class="form-label">Teléfono</label>
-                            <input type="tel" class="form-control" id="telefono" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="mensaje" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="mensaje" rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Enviar</button>
-                    </form>
-                </div>
-                <div class="col-md-6">
-                    <div class="contact-image">
-                        <img src="img/malbainterior.jpg" alt="Contacto" class="img-fluid">
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Lo que dicen nuestros visitantes</h2>
+    
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <div class="card testimonial-card text-center p-4 shadow">
+                        <img src="img/testimonial1.jpg" class="rounded-circle mx-auto" alt="Visitante 1">
+                        <p class="mt-3">"La colección permanente es impresionante y las exposiciones temporales siempre sorprenden."</p>
+                        <h5 class="mb-0 prociono-regular">María López</h5>
+                        <small class="text-muted">Artista Plástica</small>
                     </div>
                 </div>
+    
+                <div class="carousel-item">
+                    <div class="card testimonial-card text-center p-4 shadow">
+                        <img src="img/testimonial3.jpg" class="rounded-circle mx-auto" alt="Visitante 2">
+                        <p class="mt-3">"El edificio es moderno y luminoso, complementando perfectamente las obras exhibidas."</p>
+                        <h5 class="mb-0 prociono-regular">Carlos Méndez</h5>
+                        <small class="text-muted">Diseñador Gráfico</small>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="card testimonial-card text-center p-4 shadow">
+                        <img src="img/testimonial2.jpg" class="rounded-circle mx-auto" alt="Visitante 3">
+                        <p class="mt-3">"Una visita imprescindible para los amantes del arte latinoamericano."</p>
+                        <h5 class="mb-0 prociono-regular">Laura González</h5>
+                        <small class="text-muted">Historiadora de Arte</small>
+                    </div>
+                </div>
+                <div class="buttons-testimonials">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
             </div>
+    
         </div>
-    </section>
+    </div>
 
 
-<!-- footer -->
+    <!-- footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -282,13 +312,16 @@
                             class="bi bi-instagram"></i></a>
                     <a class="youtube" href="https://www.youtube.com/museomalba" target="_blank"><i
                             class="bi bi-youtube"></i></a>
-                            <a class="facebook" href="https://www.facebook.com/museomalba" target="_blank"><i
-                                class="bi bi-facebook"></i></a>
-
-
+                    <a class="facebook" href="https://www.facebook.com/museomalba" target="_blank"><i
+                            class="bi bi-facebook"></i></a>
                 </div>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
     <!-- footer -->
+
+</body>

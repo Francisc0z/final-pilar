@@ -3,6 +3,10 @@ section {
     scroll-margin-top: 80px; 
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .nav-link {
     color: black;
@@ -14,7 +18,7 @@ section {
 }
 
 .logo-img {
-    width: 90px; /* Ajusta el tamaño según necesites */
+    width: 90px; 
     height: auto;
 }
 .carousel-item-custom {
@@ -35,7 +39,7 @@ section {
 }
 
 .col-lg-6 img.img-fluid {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .btn {
@@ -44,19 +48,19 @@ section {
     font-size: 16px;
     text-align: center;
     text-decoration: none;
-    border: 2px solid #aab9cf; /* Color del borde */
-    border-radius: 30px; /* Radio del borde para hacerlo redondo */
-    color: #aab9cf; /* Color del texto */
+    border: 2px solid #aab9cf;
+    border-radius: 30px; 
+    color: #aab9cf;
     transition: all 0.3s ease;
-    background-color: transparent; /* Fondo transparente */
-    box-shadow: 0 1px 3px #707b8d; /* Sombra */
+    background-color: transparent; 
+    box-shadow: 0 1px 3px #707b8d; 
 }
 
 .btn:hover {
-    background-color: #131416; /* Color de fondo al pasar el mouse */
-    color: #9b9b9b; /* Color del texto al pasar el mouse */
-    border-color: #9b9b9b; /* Cambiar el color del borde al pasar el mouse */
-    box-shadow: 0 2px 4px rgba(122, 117, 117, 0.4); /* Sombra más intensa al pasar el mouse */
+    background-color: #131416;
+    color: #9b9b9b;
+    border-color: #9b9b9b; 
+    box-shadow: 0 2px 4px rgba(122, 117, 117, 0.4); 
 }
 
 .card {
@@ -72,6 +76,8 @@ section {
     height: 100%;
     object-fit: cover;
 }
+
+
 
 .card-img-top {
     max-width: 100%;
@@ -104,6 +110,21 @@ section {
     color: white;
 }
 
+.card-expositions{
+    min-height: 800px;
+
+}
+
+.card-expositions:hover img{
+    transition: 0.3s;
+    filter: brightness(0.8) blur(1px);
+}
+
+.home-card-collections:hover img{
+    transition: 0.3s;
+    filter: brightness(0.8) blur(1px);
+}
+
 .activity-item-custom {
     height: 300px;
     background-color: lightgray;
@@ -119,35 +140,19 @@ section {
     color: black;
 }
 
-.contact-image {
-    height: 300px;
-    background-image: url('path-to-your-image.jpg'); /* Reemplaza 'path-to-your-image.jpg' con la ruta de tu imagen */
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
+
+@media (min-width: 770px) {
+    .contact-image img {
+        max-width: 100%;
+        width: 500px;
+        height: 480px;
+        margin-right: 20px;
+    }
+    .card-expositions{
+        min-height: 550px;
+    }
 }
 
-.contact-form {
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-image {
-    display: flex;
-    justify-content: flex-end; /* Alinea la imagen a la derecha del contenedor */
-}
-
-.contact-image img {
-    max-width: 100%;
-    height: auto;
-    width: 500px;
-    height: 480px;
-    object-fit: cover;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade una sombra */
-    margin-right: 20px; /* Añade un margen derecho para mover la imagen más a la derecha */
-}
 
 footer {
     background-color: #e9ebed;
@@ -155,21 +160,38 @@ footer {
   }
 
   .footer-texto p {
-    font-size: 12px; /* Ajusta el tamaño según necesites */
+    font-size: 12px;
 }
   
   .social-icons a {
     color: #000;
     margin: 0 10px;
-    font-size: 24px; /* Ensure icon size */
+    font-size: 24px; 
     display: flex;
     align-items: center;
   }
   .social-icons .bi, .social-icons svg {
-    width: 21px; /* Ensure SVG icons are the same size */
+    width: 21px; 
     height: 21px;
     fill: currentColor;
-    display: inline-block; /* Ensure SVG icons are inline */
-    vertical-align: middle; /* Align SVG icons to the middle */
+    display: inline-block; 
+    vertical-align: middle; 
   }
 
+.testimonial-card{
+    min-height: 280px;
+}
+
+  .testimonial-card img{
+    width: 100px;
+    height: auto;
+  }
+
+  .buttons-testimonials .carousel-control-prev, 
+  .buttons-testimonials .carousel-control-next {
+      filter: invert(1); /* Invierte colores para que sean visibles */
+  }
+  
+.card-scroll-margin{
+    scroll-margin-top: 110px;
+}
