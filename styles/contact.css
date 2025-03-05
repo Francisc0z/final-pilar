@@ -14,13 +14,15 @@
 
 .contact-image {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
 }
 
 .contact-image img {
     width: 100%;
-    height: auto;
     object-fit: cover;
+    object-position: center center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
