@@ -113,7 +113,7 @@ a {
 
 .card-expositions{
     min-height: 550px;
-
+    max-height: 550px;
 }
 
 .card-expositions:hover img{
@@ -150,7 +150,8 @@ a {
         margin-right: 20px;
     }
     .card-expositions{
-        min-height: 550px;
+        min-height: 450px;
+        max-height: 450px;
     }
     .testimonial-card{
         min-height: 200px;
