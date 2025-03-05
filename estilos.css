@@ -75,6 +75,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.3s;
 }
 
 
@@ -111,7 +112,7 @@ a {
 }
 
 .card-expositions{
-    min-height: 800px;
+    min-height: 550px;
 
 }
 
@@ -151,6 +152,9 @@ a {
     .card-expositions{
         min-height: 550px;
     }
+    .testimonial-card{
+        min-height: 200px;
+    }
 }
 
 
@@ -179,7 +183,7 @@ footer {
   }
 
 .testimonial-card{
-    min-height: 280px;
+    min-height: 300px;
 }
 
   .testimonial-card img{
@@ -194,4 +198,9 @@ footer {
   
 .card-scroll-margin{
     scroll-margin-top: 110px;
+}
+
+.text-testimonials{
+    margin-left: 15px;
+    margin-right: 15px;
 }

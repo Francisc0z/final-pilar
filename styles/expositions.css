@@ -8,6 +8,7 @@
     object-fit: cover;
     object-position: top center;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 .image-card-collections img:hover{

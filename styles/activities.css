@@ -1,0 +1,32 @@
+.card-activities{
+    min-height: 560px;
+    transition: 0.1s;
+    box-shadow: none;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card-activities img{
+    min-height: 270px;
+    object-position: top center;
+}
+
+.card-activities:hover{
+    transform: translatey(-20px);
+    animation: smoot-translate 0.1s ease-in alternate;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes smoot-translate {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
