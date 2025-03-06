@@ -1,9 +1,11 @@
+//funcion para mostrar la pagina luego de completar el form
 function redirigirConfirmacion(event) {
     event.preventDefault();
-    window.location.href = "confirmacion.html";
+    window.location.href = 'confirmacion.html';
 }
 
+// Función para mostrar el toast
 function showToast() {
-    const toast = new bootstrap.Toast(document.getElementById('liveToast'));
+    var toast = new bootstrap.Toast($('#liveToast')[0]);
     toast.show();
 }
